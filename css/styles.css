@@ -94,6 +94,11 @@ hr {
     border: 1px solid rgb(206, 39, 95);
 }
 
+.titulo-estrenos {
+
+    text-align: center;
+}
+
 
 .titulo {
 
@@ -118,6 +123,7 @@ input[type=submit] {
     padding: 12px 20px;
     border: none;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 input[type=submit]:hover {
@@ -338,7 +344,7 @@ input[type=submit]:hover {
     grid-auto-flow: dense;
 }
 
-/* Extra-wide grid-posts */
+
 .article:nth-child(31n + 1) {
     grid-column: 1 / -1;
 }
@@ -359,7 +365,40 @@ input[type=submit]:hover {
     }
 }
 
-p{
+.article{
+
+    position: relative;
+}
+
+.card-text {
+
+
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.article:hover .card-text {
+    opacity: 1;
+  }
+
+p {
 
     text-align: justify;
+}
+
+.copyright-text {
+
+    text-align: center;
+
 }
