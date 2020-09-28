@@ -7,9 +7,7 @@
 header {
 
     padding-bottom: 20px;
-    background: url(../img/01-The-Secret-World-of-Arrietty.jpg);
-    background-size: cover;
-
+    background-color: rgb(241, 231, 234)
 }
 
 footer {
@@ -17,9 +15,7 @@ footer {
     text-align: center;
     padding-bottom: 10px;
     padding-top: 2px;
-    background: url(../img/247382.jpg);
-    background-size: cover;
-
+    background-color: rgb(241, 231, 234)
 }
 
 
@@ -29,9 +25,8 @@ div.container {
 }
 
 div.container a {
-    color: white;
+    color: rgb(212, 111, 143);
     font-weight: 900;
-    text-shadow: 1px 0 #888888;
     text-decoration: none;
     font: 25px Raleway;
     text-align: center;
@@ -39,7 +34,6 @@ div.container a {
     padding: 10px 10px;
     position: relative;
     display: inline;
-    z-index: 0;
     cursor: pointer;
 }
 
@@ -94,17 +88,11 @@ hr {
     border: 1px solid rgb(206, 39, 95);
 }
 
+.titulo,
 .titulo-estrenos {
 
     text-align: center;
 }
-
-
-.titulo {
-
-    text-align: center;
-}
-
 
 input[type=text],
 textarea {
@@ -151,16 +139,6 @@ input[type=submit]:hover {
     clear: both;
 }
 
-@media screen and (max-width: 528px) {
-
-    .column,
-    input[type=submit] {
-        width: 100%;
-        margin-top: 0;
-    }
-}
-
-
 .card {
     font-family: 'Roboto', sans-serif;
     margin: 25px;
@@ -178,6 +156,15 @@ input[type=submit]:hover {
     float: left;
     width: 25%;
 
+}
+
+@media screen and (max-width: 528px) {
+
+    .column,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -365,7 +352,7 @@ input[type=submit]:hover {
     }
 }
 
-.article{
+.article {
 
     position: relative;
 }
@@ -390,7 +377,7 @@ input[type=submit]:hover {
 
 .article:hover .card-text {
     opacity: 1;
-  }
+}
 
 p {
 
